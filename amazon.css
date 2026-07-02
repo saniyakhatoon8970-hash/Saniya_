@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color:#0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* box1 */
+.nav-logo{
+    height: 50px;
+    width:100px ;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size:cover ;
+    height: 50px;
+    width: 100%;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box2 */
+.nav-address{
+    padding: 8px;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left:20px ;
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+/* box3 */
+.nav-search{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    background-color:rgb(255, 162, 0);
+}
+.search-select{
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px ;
+    width: 50px;
+    text-align: center;
+    border: none;
+    background-color: #cccccc;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2.5px solid rgb(255, 157, 0);
+}
+
+/* box4 */
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.9rem;
+}
+
+/* box5 */
+.cart{
+    display: flex;
+    align-items: baseline;
+}
+.cart i{
+    font-size: 30px;
+}
+
+
+                            /* panel */
+.panel{
+    height: 40px;
+    background-color: rgb(75, 63, 63);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}  
+.opp{
+    display: flex;
+    /* justify-content:space-evenly; */
+    width: 70%;
+    font-size: 0.86rem;
+    
+}   
+.opp p{
+    margin-left: 20px;
+}  
+.electronics{
+    font-size: 0.89rem;
+    font-weight: 700;
+}         
+
+/* hero section */
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+
+}
+.hero-msg{
+    background-color: aliceblue;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.95rem;
+    width: 85%;
+    margin-bottom: 30px;
+}
+.hero-msg a{
+    text-decoration: none;
+    color: #007185;
+}
+
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #9ac4c4; 
+}
+.box{
+    width: 23%;
+    height: 350px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 20px 0px 15px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.box-img{
+    background-size: cover;
+    height: 270px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.content{
+    padding: 17px;
+}
+.content p{
+    color: #007185;
+    text-align: left;
+}
+
+footer{
+    margin-top: 15px;
+}
+.panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel2{
+    background-color: #0f1111;
+    height: 300px;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 15px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.panel3{
+    height: 60px;
+    background-color:#0f1111;
+    border-top: 0.8px solid white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-logo{
+    background-image: url("amazon_logo.png");
+    height: 40px;
+    background-size: cover;
+    width: 100px;
+}
+.panel4{
+    height: 60px;
+    color: #cccccc;
+    background-color: #191b1f;
+    /* display: flex;
+    align-items: center; */
+    padding-left: 380px;
+    padding-top: 15px;
+}
+.panel4 p{
+    margin-top:3px ;
+}
